@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+}
+header {
+    background: url(./img/bg.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+header  h2{
+    color: white;
+    font-size: 50px;
+    text-transform:uppercase ;
+}
+header  ul{
+    display: flex;
+}
+header  ul li {
+    font-size: 40px;
+}
+header  ul li a{
+    color: #111;
+    margin: 10px;
+    transition: 100s;
+}
+header ul li a:hover{
+    color: white;
+}
+.welcome{
+    margin: auto;
+}
+.welcome h3{
+    font-size: 50px;
+    padding-top: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.welcome p{
+    color: white;
+    text-align: center;
+    max-width: 700px;
+    padding-top: 20px;
+    font-size: 30px;
+    margin: auto;
+}
+.welcome .btn{
+    text-align: center;
+    margin: auto;
+}
+.welcome button{
+    margin-top: 40px;
+    background: none;
+    border: 2px solid gray;
+    font-size: 20px;
+    padding: 10px 100px;
+    color:white;
+    transition: 500ms;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.welcome  button:hover {
+    background: rgba(24, 22, 22, 0.9)
+}
